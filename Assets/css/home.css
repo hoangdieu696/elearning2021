@@ -1,0 +1,115 @@
+.app-home{
+    height: 100%;
+    width: 100%;
+    background-color: #f0f0f0;
+    background-image: url('https://idp.vnu.edu.vn/auth/resources/jwoe8/login/vnu/images/slide-03.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    overflow: scroll;
+}
+.app-header-wapper{
+    height: 100%;
+    width: 100%;
+}
+.header-top-wapper{
+    width: 100%;
+    border-bottom: 3px solid;
+    border-bottom-color: blueviolet;
+  
+}
+.changeColorRed{
+    color: red;
+}
+.changeColorBlue{
+    color: blue;
+}
+.header-container-wapper{
+    width: 100%;
+    display: inline;
+}
+.nav-list, .nav-list-items{
+    display: inline-block;
+}
+.nav-list-items{
+    list-style: none;
+    margin-top: 15px;
+}
+.nav-list-item{
+    display: inline-block;
+    margin: 10px;
+}
+.nav-list-item-link{
+    text-decoration: none;
+    color: black;
+}
+.text{
+    font-size: 25;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.slider-block{
+    width: 100%;
+    height: 550px;
+}
+.list-slider{
+    width: 100%;
+    height: 550px;
+    position: relative;
+    overflow: hidden;
+}
+.slide{
+    width: 100%;
+    height: 550px;
+    position: absolute;
+}
+.btn-left{
+    position: absolute;
+    top : 50% ;
+    left : 0 ;
+}
+.btn-right{
+    position: absolute;
+    top : 50%;
+    right: 0;
+}
+button#change {
+    cursor: pointer;
+    font-size: 50px;
+    text-decoration: none;
+    color: #f9fbfd;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;        
+}
+a.nav-list-item-link.text:hover {
+    color: red;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: red;
+    bottom: 0;
+}
+.fixed-footer{
+    position: relative;
+}
+.text-normal-1{
+    position: 0;
+    top: 0;
+    left: 0;
+}
+
+.fade{
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-name: fade;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+    from {opacity: 0.4;}
+    to {opacity: 1;}
+}
+
