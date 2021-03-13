@@ -1,0 +1,50 @@
+.app-login{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+.center-screen{
+    border: 3px solid rosybrown;
+    width: 600px;
+    height: 600px;
+}
+.app-login_container{
+    width: auto;
+    height: auto;
+    
+}
+.app-login_form{
+
+    margin-top: 150px;
+}
+#title_login{
+    text-align: center;
+    font-size: 40;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#submit-login{
+    height: 50px;
+    width: 150px;
+    background-color: royalblue;
+    border-radius: 5px;
+    border: 3px solid royalblue ;
+}
+.fix-layout {
+    display: flex;
+    justify-content: center;
+    margin: 20;
+    
+}
+.text{
+    font-weight: bold;
+    font-size: 20;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input{
+    border-radius: 5px;
+    width: 300;
+    height: 40;
+}
